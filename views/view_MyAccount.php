@@ -1,7 +1,7 @@
 <?php
 
 class MyAccountView implements InterfaceView {
-    public function displayView():string{
+    public function displayView():?string{
         ob_start();
 ?>
     <h1>Mon Compte</h1>

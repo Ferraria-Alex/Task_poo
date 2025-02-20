@@ -21,7 +21,7 @@ class AccountView implements InterfaceView{
         return $this; 
     }
 
-    public function displayView():string{
+    public function displayView():?string{
         ob_start();
         echo $this->getForm();
 ?>

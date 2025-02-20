@@ -1,5 +1,5 @@
 <?php
 
 Interface InterfaceView{
-    public function displayView():string;
+    public function displayView():?string;
 }
